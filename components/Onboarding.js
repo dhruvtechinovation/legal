@@ -50,6 +50,7 @@ const Onboarding = () => {
     navigation.navigate("Main");
   };
 
+  
   return (
     <View style={styles.container}>
       <Carousel
