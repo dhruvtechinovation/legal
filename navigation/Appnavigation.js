@@ -1,31 +1,3 @@
-// import React from "react";
-// import { createDrawerNavigator } from "@react-navigation/drawer";
-// import { NavigationContainer } from "@react-navigation/native";
-// import HomeScreen from "../screens/HomeScreen";
-// import Services from "../screens/Services";
-// import Account from "../screens/Account";
-
-// const Drawer = createDrawerNavigator();
-
-// const DrawerNavigator = () => {
-//   return (
-//     <NavigationContainer>
-//       <Drawer.Navigator
-//         screenOptions={{
-//           headerShown: true,  // Show the header
-//           drawerActiveTintColor: "black",  // Active drawer item color
-//           drawerInactiveTintColor: "gray", // Inactive drawer item color
-//         }}
-//       >
-//         <Drawer.Screen name="Home" component={HomeScreen} />
-//         <Drawer.Screen name="Services" component={Services} />
-//         <Drawer.Screen name="Profile" component={Account} />
-//       </Drawer.Navigator>
-//     </NavigationContainer>
-//   );
-// };
-
-// export default DrawerNavigator;
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
